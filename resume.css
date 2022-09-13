@@ -52,9 +52,7 @@ table {
 
 */
 *{
-    /*
     outline: 1px solid black;
-    */
 }
 
 /*
@@ -291,7 +289,7 @@ about
 }
 .aboutphoto,.aboutcontent{
     width: 260px;
-    height: 335px;
+    height: 535px;
 }
 .aboutcontent{
     width: 442px;
@@ -302,3 +300,13 @@ about
     line-height:30px;
 }
 
+/*
+footer
+*/
+.footer{
+    width: 1025px;
+    height: 50px;
+    background-image: url("image/img-Looper-bg.png");
+    background-repeat: no-repeat;
+    margin: auto;
+}

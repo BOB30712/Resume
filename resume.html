@@ -58,9 +58,9 @@
             <div>
                 <img src="image/img-skill-icon-3.png" alt="skill-icon">
             </div>
-            <h2>Web Layout</h2>
+            <h2>Java</h2>
             <ul>
-                <li>1</li>
+                <li>spring</li>
                 <li>2</li>
             </ul>
         </div>
@@ -101,30 +101,54 @@
                 </div>
             </div>
         </div>
-        <h1 style="margin: 20px;color: #FB56BF;">作品</h1>
+        <h1 style="margin: 50px;color: #FB56BF;">作品</h1>
         <div class="workbody" >
-            <div class="workcontent">
+            <div id="work1" class="workcontent" style="border:1px solid #424242;cursor: pointer;">
                 <div style="background:#424242;" >
                     <img src="image/logo-work-2.png" alt="work-2">
                 </div>
                 <a href="https://bob30712.github.io/JS-todolist/ToDoList2.html">todolist</a>
             </div>
-            <div class="workcontent">
+            <div id="work3" class="workcontent" style="border:1px solid #FB56BF;cursor: pointer;">
+                <div style="background:#FB56BF;" >
+                    <img src="image/logo-work-1.png" alt="work-2">
+                </div>
+                <a href="https://bob30712.github.io/JS-todolist/vegetable/vegetableindex.html">農產品比價網</a>
+            </div>
+            <div id="work2" class="workcontent" style="border:1px solid #8AD7FA;cursor: pointer;">
                 <div style="background:#8AD7FA;" >
                     <img src="image/logo-work-3.png" alt="work-3">
                 </div>
                 <a href="https://bob30712.github.io/vue-cli-practice/#/UserBoard/UserCart">電商網站</a>
             </div>
         </div>
-        <h1 style="margin-top: 20px; color: #FB56BF;">about 莊鎮宇</h1>
+        <h1 style="margin-top: 50px; color: #FB56BF;">about 莊鎮宇</h1>
         <div class="aboutbody">
-            <div class="aboutphoto">
+            <div class="aboutphoto" style="background: green;margin: 50px;box-sizing: border-box;">
             </div>
             <div class="aboutcontent">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora explicabo ipsam numquam commodi maiores dicta eligendi fuga facilis, quos ad possimus sit asperiores error ratione! Eum ex accusantium suscipit commodi?
+                </p>
+                <p>Lorem, ipsum dolor.
+                </p>
                 <p>畢業於中原大學機械系，因學習過程中接觸基礎程式語言(C＋＋、python），透過編譯程式碼將複雜的資料、邏輯運算換算成更為簡單的圖表而對此產生興趣。後續開始學習java相關後端開發，期望能將興趣與工作結合。</p>
             </div>
         </div>
     </div>
     <div class="footer"></div>
+    <script>
+        const work1=document.querySelector("#work1");
+        work1.addEventListener("click",function(e){
+            window.location.href='https://bob30712.github.io/JS-todolist/ToDoList2.html';
+        });
+        const work2=document.querySelector("#work2");
+        work2.addEventListener("click",function(e){
+            window.location.href='https://bob30712.github.io/vue-cli-practice/#/UserBoard/UserCart';
+        });
+        const work3=document.querySelector("#work3");
+        work3.addEventListener("click",function(e){
+            window.location.href='https://bob30712.github.io/JS-todolist/vegetable/vegetableindex.html';
+        });
+    </script>
 </body>
 </html>
